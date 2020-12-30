@@ -4,7 +4,7 @@
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
 
@@ -19,11 +19,10 @@ a{
     bottom: 50%;
     transform: translate(-50%, 50%);
     color: #1670f0;
-    padding: 10px 30px;
-    font-size: 15px;
+    padding: 7px 20px;
+    font-size: 20px;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 60px #0b16ae;
     overflow: hidden;
     text-shadow: 0px 0px 60px orangered;
 }
@@ -119,4 +118,10 @@ a span:nth-child(4){
 }
 #name{
     color: #0c002b;
+}
+#btn{
+    display: flex;
+}
+#btnF{
+    color: #ffffff;
 }
